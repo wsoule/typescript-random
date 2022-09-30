@@ -1,0 +1,18 @@
+{
+  "name": "typscripttut",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "runThing": "ts-node src/app.ts",
+    "startServe": "nodemon src/app.js",
+    "build:w": "cp src/index.html build/index.html && tsc -w"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
